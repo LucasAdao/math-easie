@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="480.0" minWidth="640.0" prefHeight="810.0" prefWidth="1315.0" style="-fx-background-color: #52cdaa;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.TabuadaSumController">
+   <children>
+      <BorderPane layoutX="413.0" layoutY="46.0" prefHeight="154.0" prefWidth="434.0">
+         <center>
+            <Label text="Soma" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS" size="57.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+      <BorderPane layoutX="265.0" layoutY="231.0" prefHeight="196.0" prefWidth="760.0">
+         <center>
+            <Button fx:id="btnDois" mnemonicParsing="false" onAction="#onBtnDoisAction" prefHeight="86.0" prefWidth="250.0" style="-fx-background-color: #ffffff;" text="2" textFill="#52cdaa" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="24.0" />
+               </font>
+            </Button>
+         </center>
+         <right>
+            <Button fx:id="btnTres" mnemonicParsing="false" onAction="#onBtnTresAction" prefHeight="86.0" prefWidth="232.0" style="-fx-background-color: #ffffff;" text="3" textFill="#52cdaa" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="24.0" />
+               </font>
+            </Button>
+         </right>
+         <left>
+            <Button fx:id="btnUm" mnemonicParsing="false" onAction="#onBtnUmAction" prefHeight="86.0" prefWidth="232.0" style="-fx-background-color: #ffffff;" text="1" textFill="#52cdaa" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="24.0" />
+               </font>
+            </Button>
+         </left>
+      </BorderPane>
+      <BorderPane layoutX="262.0" layoutY="377.0" prefHeight="196.0" prefWidth="760.0">
+         <center>
+            <Button fx:id="btnCinco" mnemonicParsing="false" onAction="#onBtnCincoAction" prefHeight="86.0" prefWidth="250.0" style="-fx-background-color: #ffffff;" text="5" textFill="#52cdaa" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="24.0" />
+               </font>
+            </Button>
+         </center>
+         <right>
+            <Button fx:id="btnSeis" mnemonicParsing="false" onAction="#onBtnSeisAction" prefHeight="86.0" prefWidth="232.0" style="-fx-background-color: #ffffff;" text="6" textFill="#52cdaa" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="24.0" />
+               </font>
+            </Button>
+         </right>
+         <left>
+            <Button fx:id="btnQuatro" mnemonicParsing="false" onAction="#onBtnQuatroAction" prefHeight="86.0" prefWidth="232.0" style="-fx-background-color: #ffffff;" text="4" textFill="#52cdaa" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="24.0" />
+               </font>
+            </Button>
+         </left>
+      </BorderPane>
+      <BorderPane layoutX="261.0" layoutY="535.0" prefHeight="196.0" prefWidth="760.0">
+         <center>
+            <Button fx:id="btnOito" mnemonicParsing="false" onAction="#onBtnOitoAction" prefHeight="86.0" prefWidth="250.0" style="-fx-background-color: #ffffff;" text="8" textFill="#52cdaa" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="24.0" />
+               </font>
+            </Button>
+         </center>
+         <right>
+            <Button fx:id="btnNove" mnemonicParsing="false" onAction="#onBtnNoveAction" prefHeight="86.0" prefWidth="232.0" style="-fx-background-color: #ffffff;" text="9" textFill="#52cdaa" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="24.0" />
+               </font>
+            </Button>
+         </right>
+         <left>
+            <Button fx:id="btnSete" mnemonicParsing="false" onAction="#onBtnSeteAction" prefHeight="86.0" prefWidth="232.0" style="-fx-background-color: #ffffff;" text="7" textFill="#52cdaa" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="24.0" />
+               </font>
+            </Button>
+         </left>
+      </BorderPane>
+      <Button fx:id="btnBack" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onBtnBackAction" prefHeight="86.0" prefWidth="232.0" style="-fx-background-color: #ffffff;" text="Voltar" textFill="#ff3f3f">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="608.0" fitWidth="738.0" layoutX="567.0" layoutY="-58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Documents/Math%20Easie/Imagens/+-.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="293.0" fitWidth="339.0" layoutX="-67.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Documents/Math%20Easie/Imagens/function.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="372.0" fitWidth="572.0" layoutX="865.0" layoutY="458.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Documents/Math%20Easie/Imagens/mais2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="170.0" fitWidth="309.0" layoutX="-52.0" layoutY="501.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Documents/Math%20Easie/Imagens/porcento.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
